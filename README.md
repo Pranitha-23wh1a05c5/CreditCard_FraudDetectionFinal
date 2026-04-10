@@ -82,7 +82,7 @@ FraudGuard/
 
 ### Dashboard — Transaction Analysis & Risk Output
 
-![FraudGuard Dashboard](./screenshots/dashboard.png)
+![FraudGuard Dashboard](./fraud_backend/screenshots/dashboard.png)
 
 > The main interface: transaction input form with preset scenarios on the left, real-time risk verdict and factor breakdown on the right.
 
