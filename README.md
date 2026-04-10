@@ -98,7 +98,7 @@ FraudGuard/
 ![Approve Decision](./fraud_backend/screenshots/approve_decision1.png)
 ![Approve Decision](./fraud_backend/screenshots/approve_decision2.png)
 
-> A standard grocery transaction with low amount, normal hour, and short distance gets approved with a risk score under 35.
+> A standard food dining transaction with low amount, normal hour, and short distance gets approved with a risk score under 35.
 
 ### FLAG Decision — Medium Risk
 
