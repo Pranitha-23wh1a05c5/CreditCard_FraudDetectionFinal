@@ -88,25 +88,29 @@ FraudGuard/
 
 ### BLOCK Decision — High Risk Transaction
 
-![Block Decision](./screenshots/block_decision.png)
+![Flag Decision](./screenshots/flag_decision1.png)
+![Flag Decision](./screenshots/flag_decision2.png)
 
-> A $8,450 travel transaction at 2 AM with 1,840 km distance earns a risk score of 82.4 — the agent blocks it automatically.
+> A Rs 8,450 travel transaction at 2 AM with 1,840 km distance earns a risk score of 82.4 — the agent flags it automatically.
 
 ### APPROVE Decision — Low Risk Transaction
 
-![Approve Decision](./screenshots/approve_decision.png)
+![Approve Decision](./screenshots/approve_decision1.png)
+![Approve Decision](./screenshots/approve_decision2.png)
 
 > A standard grocery transaction with low amount, normal hour, and short distance gets approved with a risk score under 35.
 
 ### FLAG Decision — Medium Risk
 
-![Flag Decision](./screenshots/flag_decision.png)
+![Flag Decision](./screenshots/flag_decision1.png)
+![Flag Decision](./screenshots/flag_decision2.png)
 
 > Borderline transactions are flagged for human review rather than automatically blocked.
 
 ### Risk Factor Contribution Breakdown
 
-![Factor Breakdown](./screenshots/factors.png)
+![Factor Breakdown](./screenshots/factors1.png)
+![Factor Breakdown](./screenshots/factors2.png)
 
 > Each factor's individual contribution to the final risk score is surfaced — model signal, amount, distance, time-of-day, and category.
 
