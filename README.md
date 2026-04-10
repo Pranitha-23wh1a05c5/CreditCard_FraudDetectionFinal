@@ -88,10 +88,10 @@ FraudGuard/
 
 ### BLOCK Decision — High Risk Transaction
 
-![Flag Decision](./fraud_backend/screenshots/flag_decision1.png)
-![Flag Decision](./fraud_backend/screenshots/flag_decision2.png)
+![Flag Decision](./fraud_backend/screenshots/block_decision1.png)
+![Flag Decision](./fraud_backend/screenshots/block_decision2.png)
 
-> A Rs 8,450 travel transaction at 2 AM with 1,840 km distance earns a risk score of 82.4 — the agent flags it automatically.
+> Borderline transactions are flagged for human review rather than automatically blocked.
 
 ### APPROVE Decision — Low Risk Transaction
 
@@ -105,7 +105,7 @@ FraudGuard/
 ![Flag Decision](./fraud_backend/screenshots/flag_decision1.png)
 ![Flag Decision](./fraud_backend/screenshots/flag_decision2.png)
 
-> Borderline transactions are flagged for human review rather than automatically blocked.
+> A Rs 8,450 travel transaction at 2 AM with 1,840 km distance earns a risk score of 82.4 — the agent flags it automatically.
 
 ### Risk Factor Contribution Breakdown
 
