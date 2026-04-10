@@ -146,3 +146,7 @@ def predict(data):
     }])
 
     return float(model.predict_proba(df)[0][1])
+
+if __name__ == "__main__":
+    result = train_model()
+    print(result)
